@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.fundo {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 120, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: 100vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.image-border {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px 8px 10px 8px;
+    border-color: #155950;
+    width: 35px;
+    height: 35px;
+}
+
+.linha {
+    height: 3px;
+    border-style: solid;
+    border-color: #155950;
+    width: 50%;
+    align-items: center;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+    border: double;
+    border-color: #155950;
+    border-radius: 18%;
+}
+
+.botao:hover {
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    background-color: black;
+}
+
+#resultado {
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgba(7, 12, 20, 0.8);
+    border-style: solid;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(1, 58, 105, 0.8) 0%, rgba(14, 171, 173, 0.8) 35%, rgba(17, 215, 255, 0.8)) 100%);
+    color: #FFF;
+    width: 100%;
+    height: 100 px;
+    text-align: center;
+    line-height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
